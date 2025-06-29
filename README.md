@@ -5,6 +5,8 @@ Bu proje, DevOps ve Linux konularında sıkça sorulan sorulara yapay zeka deste
 
 Geliştirilen sistem aynı zamanda kullanıcıya yardımcı olacak örnek cümleleri barındıran geniş bir veri seti kullanır. Bu sistem; veri sınıflandırma, bilgi getirme ve doğal dil işleme teknolojilerini bir araya getirerek pratik bir etkileşim sağlar.
 
+Devops, Linux, Network ve Weblogic Server hakkında yazılmış olan toplam 10 kitap üzerinden bilgi getirebilen bir sistem tasarlanmıştır. Burada temel amaç sistem yönetimi ve devops alanında çalışan mühendislere kaynak sağlamak ve troubleshooting süreçlerinde ihtiyaç duydukları bilgileri hızlı ve güvenilir şekilde elde edebilmelerine destek olmaktır.
+
 ## 🚀 Proje Nasıl Çalışır?
 - Kullanıcı bir soru yazar.
 - Cümle önce SentenceTransformer ile vektöre dönüştürülür.
