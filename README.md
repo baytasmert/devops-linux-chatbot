@@ -19,6 +19,23 @@ Geliştirilen sistem aynı zamanda kullanıcıya yardımcı olacak örnek cümle
 - Kaggle üzerinde yayımlanmıştır: [Linux & DevOps How-To Intent Dataset](https://www.kaggle.com/datasets/mertbaytas/linux-and-devops-how-to-questions-intent-data/)
 - Veri seti, sınıflandırma modeline uygun olacak şekilde ön işleme ve temizleme adımlarından geçirilmiştir. Kategoriler dengeli, etiketler tutarlıdır.
 
+## 📚 Kullanılan Kaynak Kitaplar
+
+Bu projede, bilgi getirme (retrieval) sistemi için kullanılan vektör veritabanı, aşağıda listelenen teknik kitaplardan elde edilen içeriklerle oluşturulmuştur. Bu kaynaklar, DevOps, Linux sistem yönetimi, SRE ve altyapı yönetimi konularını kapsamaktadır.
+
+| Kitap Adı                                              | Yazar(lar)                          | Sayfa Sayısı |
+|--------------------------------------------------------|-------------------------------------|--------------|
+| The Linux Philosophy for SysAdmins                     | David Both                          | 269          |
+| The Practice of System and Network Administration Vol.1| Thomas A. Limoncelli, et al.        | 536          |
+| The Practice of System and Network Administration Vol.2| Thomas A. Limoncelli, et al.        | 552          |
+| The Practice of System and Network Administration Vol.3| Thomas A. Limoncelli, et al.        | 552          |
+| DevOps for the Modern Enterprise                       | Mirco Hering                        | 193          |
+| WebLogic Server 12c: Administration Handbook           | Sam R. Alapati                      | 744          |
+| Seeking SRE: Conversations About Running Production    | David N. Blank-Edelman (Ed.)        | 411          |
+| Infrastructure as Code: Managing Servers               | Kief Morris                         | 362          |
+
+> 🔍 Bu kaynaklar, Chroma vektör veritabanı içine gömülerek LangChain üzerinden çağrılabilir hale getirilmiştir. Her yanıt gerektiğinde ilgili belge parçasıyla ilişkilendirilir.
+
 ---
 
 ## 🔌 Kullanılan LLM Modelleri ve API Entegrasyonu
