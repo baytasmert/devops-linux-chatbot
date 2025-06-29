@@ -19,6 +19,9 @@ Geliştirilen sistem aynı zamanda kullanıcıya yardımcı olacak örnek cümle
 - Kaggle üzerinde yayımlanmıştır: [Linux & DevOps How-To Intent Dataset](https://www.kaggle.com/datasets/mertbaytas/linux-and-devops-how-to-questions-intent-data/)
 - Veri seti, sınıflandırma modeline uygun olacak şekilde ön işleme ve temizleme adımlarından geçirilmiştir. Kategoriler dengeli, etiketler tutarlıdır.
 
+
+Toplamda **40 farklı intent** tanımlanmıştır ve her biri için yaklaşık **90 örnek cümle (utterance)** oluşturulmuştur. Yani toplamda 3500'den fazla örnek içerir. Kullanıcı girişi önce intent sınıflandırma modeli ile analiz edilir, özel yanıtlar varsa verilir, aksi halde ilgili teknik içerik vektör veritabanından alınarak cevap üretilir.
+
 ## 📚 Kullanılan Kaynak Kitaplar
 
 Bu projede, bilgi getirme (retrieval) sistemi için kullanılan vektör veritabanı, aşağıda listelenen teknik kitaplardan elde edilen içeriklerle oluşturulmuştur. Bu kaynaklar, DevOps, Linux sistem yönetimi, SRE ve altyapı yönetimi konularını kapsamaktadır.
@@ -83,8 +86,6 @@ Chatbot aşağıdaki temel intent türlerine yanıt verecek şekilde tasarlanmı
 - `off_topic`: Konu dışı mesajlar
 - `unknown`: Anlaşılamayan sorular
 - `*`: Teknik komut ve yapılandırma soruları (örneğin `linux_process_kill`, `dhcp_server_setup`, `lvm_extend_volume`, vb.)
-
-Toplamda **40 farklı intent** tanımlanmıştır ve her biri için yaklaşık **90 örnek cümle (utterance)** oluşturulmuştur. Yani toplamda 3500'den fazla örnek içerir. Kullanıcı girişi önce intent sınıflandırma modeli ile analiz edilir, özel yanıtlar varsa verilir, aksi halde ilgili teknik içerik vektör veritabanından alınarak cevap üretilir.
 
 ---
 
