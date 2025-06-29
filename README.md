@@ -36,11 +36,6 @@ Bu projede iki farklı büyük dil modeli (LLM) ile chatbot eğitimi ve yanıt �
 - `.env` dosyasına `GOOGLE_API_KEY` girilerek aktif edilir.
 - LangChain üzerinden `ChatGoogleGenerativeAI` sınıfı ile entegre edilmiştir.
 
-**Neden Seçildi:**
-- Google'ın güncel ve hızlı çalışan modellerinden biridir.
-- Ücretsiz API erişimi mevcuttur.
-- Yanıtları hızlı, kısa ve güvenilir döndürme eğilimindedir.
-
 ### 📍 2. OpenRouter (`mistral-7b-instruct` gibi modeller)
 **API Sağlayıcı:** OpenRouter.ai  
 **Neden Seçildi:**
@@ -52,10 +47,6 @@ Bu projede iki farklı büyük dil modeli (LLM) ile chatbot eğitimi ve yanıt �
 - `.env` dosyasına `OPENROUTER_API_KEY` girilerek aktif edilir.
 - LangChain `ChatOpenAI` sınıfı ile `base_url` üzerinden erişim sağlanır.
 
-**Neden Seçildi:**
-- Farklı modelleri bir arayüzden çağırabilme esnekliği sunar.
-- ChatGPT, Mistral, Claude gibi birçok açık model desteklenir.
-- Gemini ile karşılaştırmalı test yapma imkânı sağlar.
 
 ### 🔧 Kullanılan Araçlar
 - **LangChain**: Zincir yapıları, retriever ve LLM entegrasyonları için kullanıldı.
