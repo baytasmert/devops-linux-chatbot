@@ -48,7 +48,8 @@ Bu projede, bilgi getirme (retrieval) sistemi için kullanılan vektör veritaba
 Bu projede iki farklı büyük dil modeli (LLM) ile chatbot eğitimi ve yanıt üretimi gerçekleştirilmiştir:
 
 ### 📍 1. Google Gemini (`gemini-2.0-flash`)
-**API Sağlayıcı:** Google Generative AI  
+**API Sağlayıcı:** Google Generative AI 
+
 **Neden Seçildi:**
 - Google'ın güncel ve hızlı çalışan modellerinden biridir.
 - Ücretsiz API erişimi mevcuttur.
@@ -59,7 +60,8 @@ Bu projede iki farklı büyük dil modeli (LLM) ile chatbot eğitimi ve yanıt �
 - LangChain üzerinden `ChatGoogleGenerativeAI` sınıfı ile entegre edilmiştir.
 
 ### 📍 2. OpenRouter (`mistral-7b-instruct` gibi modeller)
-**API Sağlayıcı:** OpenRouter.ai  
+**API Sağlayıcı:** OpenRouter.ai 
+
 **Neden Seçildi:**
 - Farklı modelleri bir arayüzden çağırabilme esnekliği sunar.
 - ChatGPT, Mistral, Claude gibi birçok açık model desteklenir.
@@ -104,8 +106,8 @@ Aşağıdaki adımları izleyerek projeyi lokal ortamınızda çalıştırabilir
 
 ### 1. 🔽 Projeyi Klonlayın
 ```bash
-git clone https://github.com/kullaniciadi/devops-chatbot.git
-cd devops-chatbot
+git clone https://github.com/baytasmert/devops-linux-chatbot.git
+cd devops-linux-chatbot
 ```
 
 ### 2. 🐍 Sanal Ortam Oluşturun ve Aktif Edin
